@@ -1,0 +1,68 @@
+Start placing the point in the unit sphere...
+Extracting information for 3D points...
+The time taken to extract the information of three-dimensional points is: 0.0031723976135253906s.
+Number of points: 1446 .
+The time it takes to place the point in the unit sphere is: 0.00444483757019043s.
+Start building voxels...
+The time of the voxelization is: 0.0016973018646240234s.
+##############################################################
+&&&&&&&&&&&&&&Start Calculating Geometric Moment&&&&&&&&&&&&&&
+Now r = 0 , when r = 20, the geometric moment is calculated.
+Now r = 7 , when r = 20, the geometric moment is calculated.
+Now r = 1 , when r = 20, the geometric moment is calculated.
+Now r = 5 , when r = 20, the geometric moment is calculated.
+Now r = 8 , when r = 20, the geometric moment is calculated.
+Now r = 17 , when r = 20, the geometric moment is calculated.
+Now r = 20 , when r = 20, the geometric moment is calculated.
+Now r = 16 , when r = 20, the geometric moment is calculated.
+Now r = 11 , when r = 20, the geometric moment is calculated.
+Now r = 3 , when r = 20, the geometric moment is calculated.
+Now r = 19 , when r = 20, the geometric moment is calculated.
+Now r = 4 , when r = 20, the geometric moment is calculated.
+Now r = 14 , when r = 20, the geometric moment is calculated.
+Now r = 6 , when r = 20, the geometric moment is calculated.
+Now r = 2 , when r = 20, the geometric moment is calculated.
+Now r = 15 , when r = 20, the geometric moment is calculated.
+Now r = 18 , when r = 20, the geometric moment is calculated.
+Now r = 10 , when r = 20, the geometric moment is calculated.
+Now r = 13 , when r = 20, the geometric moment is calculated.
+Now r = 9 , when r = 20, the geometric moment is calculated.
+Now r = 12 , when r = 20, the geometric moment is calculated.
+##############################################################
+&&&&&&&&&&&&&&&End Calculating Geometric Moment&&&&&&&&&&&&&&&
+The calculation time of geometric moment is: 1.3059813976287842s.
+Zernike feature vector has been written into exampleAtomZernikeDescriptor/4my7A.pkl. Total time: 3.190356731414795s.
+Start placing the point in the unit sphere...
+Extracting information for 3D points...
+The time taken to extract the information of three-dimensional points is: 0.0031054019927978516s.
+Number of points: 1446 .
+The time it takes to place the point in the unit sphere is: 0.004496574401855469s.
+Start building voxels...
+The time of the voxelization is: 0.0016582012176513672s.
+##############################################################
+&&&&&&&&&&&&&&Start Calculating Geometric Moment&&&&&&&&&&&&&&
+Now r = 0 , when r = 20, the geometric moment is calculated.
+Now r = 1 , when r = 20, the geometric moment is calculated.
+Now r = 8 , when r = 20, the geometric moment is calculated.
+Now r = 9 , when r = 20, the geometric moment is calculated.
+Now r = 3 , when r = 20, the geometric moment is calculated.
+Now r = 5 , when r = 20, the geometric moment is calculated.
+Now r = 18 , when r = 20, the geometric moment is calculated.
+Now r = 13 , when r = 20, the geometric moment is calculated.
+Now r = 20 , when r = 20, the geometric moment is calculated.
+Now r = 19 , when r = 20, the geometric moment is calculated.
+Now r = 10 , when r = 20, the geometric moment is calculated.
+Now r = 15 , when r = 20, the geometric moment is calculated.
+Now r = 2 , when r = 20, the geometric moment is calculated.
+Now r = 11 , when r = 20, the geometric moment is calculated.
+Now r = 6 , when r = 20, the geometric moment is calculated.
+Now r = 16 , when r = 20, the geometric moment is calculated.
+Now r = 4 , when r = 20, the geometric moment is calculated.
+Now r = 17 , when r = 20, the geometric moment is calculated.
+Now r = 7 , when r = 20, the geometric moment is calculated.
+Now r = 12 , when r = 20, the geometric moment is calculated.
+Now r = 14 , when r = 20, the geometric moment is calculated.
+##############################################################
+&&&&&&&&&&&&&&&End Calculating Geometric Moment&&&&&&&&&&&&&&&
+The calculation time of geometric moment is: 1.4432852268218994s.
+Zernike feature vector has been written into exampleAtomZernikeDescriptor/4my7A.pkl. Total time: 3.485062837600708s.

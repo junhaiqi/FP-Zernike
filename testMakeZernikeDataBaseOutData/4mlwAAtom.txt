@@ -1,0 +1,269 @@
+Start placing the point in the unit sphere...
+Extracting information for 3D points...
+throw away 3D coordinate 5.753-100.549 -28.753
+throw away 3D coordinate 6.428-101.137 -30.006
+throw away 3D coordinate 7.149-102.135 -29.921
+throw away 3D coordinate 4.290-100.999 -28.653
+throw away 3D coordinate 4.060-102.485 -28.747
+throw away 3D coordinate 2.593-102.812 -28.968
+throw away 3D coordinate 1.733-102.003 -28.553
+throw away 3D coordinate 2.300-103.870 -29.565
+throw away 3D coordinate 6.216-100.504 -31.157
+throw away 3D coordinate 6.839-100.960 -32.398
+throw away 3D coordinate 8.358-100.796 -32.338
+throw away 3D coordinate 9.112-101.671 -32.761
+throw away 3D coordinate 6.228-100.230 -33.597
+throw away 3D coordinate 4.761-100.597 -33.781
+throw away 3D coordinate 3.005-100.169 -35.288
+throw away 3D coordinate 10.875-100.523 -30.764
+throw away 3D coordinate 11.977-100.955 -31.029
+throw away 3D coordinate 10.162-100.945 -29.716
+throw away 3D coordinate 10.690-101.946 -28.799
+throw away 3D coordinate 10.695-101.950 -28.803
+throw away 3D coordinate 10.816-103.306 -29.486
+throw away 3D coordinate 11.760-104.056 -29.242
+throw away 3D coordinate 9.808-102.037 -27.551
+throw away 3D coordinate 9.822-102.072 -27.556
+throw away 3D coordinate 9.929-100.860 -26.771
+throw away 3D coordinate 10.374-103.023 -26.664
+throw away 3D coordinate 9.865-103.624 -30.343
+throw away 3D coordinate 9.908-104.862 -31.116
+throw away 3D coordinate 9.949-104.885 -31.068
+throw away 3D coordinate 11.085-104.836 -32.093
+throw away 3D coordinate 11.844-105.798 -32.219
+throw away 3D coordinate 8.596-105.046 -31.879
+throw away 3D coordinate 8.621-105.245 -31.727
+throw away 3D coordinate 8.555-106.311 -32.511
+throw away 3D coordinate 8.305-104.319 -32.739
+throw away 3D coordinate 11.225-103.712 -32.788
+throw away 3D coordinate 12.346-103.524 -33.709
+throw away 3D coordinate 13.661-103.641 -32.927
+throw away 3D coordinate 14.578-104.317 -33.380
+throw away 3D coordinate 12.209-102.172 -34.432
+throw away 3D coordinate 13.279-101.776 -35.464
+throw away 3D coordinate 14.345-102.520 -35.898
+throw away 3D coordinate 13.324-100.544 -36.187
+throw away 3D coordinate 15.066-101.802 -36.830
+throw away 3D coordinate 14.453-100.593 -37.034
+throw away 3D coordinate 13.736-103.027 -31.738
+throw away 3D coordinate 14.911-103.154 -30.876
+throw away 3D coordinate 15.254-104.610 -30.528
+throw away 3D coordinate 16.428-105.007 -30.542
+throw away 3D coordinate 14.719-102.305 -29.607
+throw away 3D coordinate 15.892-102.289 -28.656
+throw away 3D coordinate 17.139-101.820 -29.055
+throw away 3D coordinate 15.740-102.712 -27.339
+throw away 3D coordinate 18.219-101.799 -28.170
+throw away 3D coordinate 16.801-102.685 -26.453
+throw away 3D coordinate 18.031-102.227 -26.870
+throw away 3D coordinate 19.081-102.208 -25.983
+throw away 3D coordinate 14.247-105.406 -30.171
+throw away 3D coordinate 14.475-106.809 -29.843
+throw away 3D coordinate 15.038-107.559 -31.040
+throw away 3D coordinate 15.943-108.387 -30.899
+throw away 3D coordinate 13.181-107.465 -29.347
+throw away 3D coordinate 12.713-106.934 -28.003
+throw away 3D coordinate 13.779-107.064 -26.934
+throw away 3D coordinate 14.427-108.104 -26.810
+throw away 3D coordinate 13.978-106.001 -26.162
+throw away 3D coordinate 14.544-107.225 -32.231
+throw away 3D coordinate 15.094-107.819 -33.440
+throw away 3D coordinate 16.518-107.310 -33.692
+throw away 3D coordinate 17.411-108.085 -34.022
+throw away 3D coordinate 14.175-107.565 -34.641
+throw away 3D coordinate 14.694-108.204 -35.796
+throw away 3D coordinate 16.711-106.005 -33.515
+throw away 3D coordinate 18.033-105.378 -33.623
+throw away 3D coordinate 19.091-106.085 -32.752
+throw away 3D coordinate 20.176-106.402 -33.234
+throw away 3D coordinate 17.898-103.886 -33.277
+throw away 3D coordinate 19.164-103.078 -33.440
+throw away 3D coordinate 19.552-102.603 -34.689
+throw away 3D coordinate 19.923-102.727 -32.332
+throw away 3D coordinate 20.702-101.827 -34.835
+throw away 3D coordinate 21.069-101.956 -32.468
+throw away 3D coordinate 21.466-101.512 -33.721
+throw away 3D coordinate 18.736-106.368 -31.497
+throw away 3D coordinate 19.633-107.053 -30.560
+throw away 3D coordinate 19.975-108.495 -30.951
+throw away 3D coordinate 21.067-108.967 -30.663
+throw away 3D coordinate 19.063-107.022 -29.141
+throw away 3D coordinate 19.053-105.660 -28.455
+throw away 3D coordinate 18.411-105.763 -27.082
+throw away 3D coordinate 20.471-105.143 -28.339
+throw away 3D coordinate 19.072-109.187 -31.642
+throw away 3D coordinate 19.395-110.516 -32.150
+throw away 3D coordinate 20.528-110.468 -33.170
+throw away 3D coordinate 21.355-111.381 -33.227
+throw away 3D coordinate 18.159-111.183 -32.769
+throw away 3D coordinate 16.969-111.354 -31.820
+throw away 3D coordinate 17.249-112.388 -30.737
+throw away 3D coordinate 16.003-112.706 -29.910
+throw away 3D coordinate 15.258-113.895 -30.422
+throw away 3D coordinate 20.577-109.399 -33.968
+throw away 3D coordinate 21.596-109.276 -35.008
+throw away 3D coordinate 22.819-108.468 -34.567
+throw away 3D coordinate 23.942-108.708 -35.024
+throw away 3D coordinate 20.971-108.698 -36.285
+throw away 3D coordinate 19.654-109.383 -36.690
+throw away 3D coordinate 19.832-110.831 -37.129
+throw away 3D coordinate 20.401-111.062 -38.217
+throw away 3D coordinate 19.394-111.738 -36.390
+throw away 3D coordinate 22.593-107.512 -33.665
+throw away 3D coordinate 23.657-106.692 -33.095
+throw away 3D coordinate 23.501-106.759 -31.587
+throw away 3D coordinate 22.935-105.843 -30.978
+throw away 3D coordinate 23.512-105.227 -33.520
+throw away 3D coordinate 23.574-104.858 -35.299
+throw away 3D coordinate 23.984-107.857 -30.976
+throw away 3D coordinate 23.733-108.092 -29.548
+throw away 3D coordinate 24.254-107.012 -28.606
+throw away 3D coordinate 23.704-106.865 -27.518
+throw away 3D coordinate 24.416-109.443 -29.280
+throw away 3D coordinate 25.300-109.694 -30.451
+throw away 3D coordinate 24.650-109.003 -31.615
+throw away 3D coordinate 25.268-106.258 -29.013
+throw away 3D coordinate 25.739-105.150 -28.190
+throw away 3D coordinate 24.824-103.923 -28.248
+throw away 3D coordinate 24.967-102.998 -27.446
+throw away 3D coordinate 27.152-104.739 -28.593
+throw away 3D coordinate 27.133-104.089 -29.867
+throw away 3D coordinate 23.908-103.904 -29.206
+throw away 3D coordinate 23.042-102.751 -29.408
+throw away 3D coordinate 23.781-101.586 -30.051
+throw away 3D coordinate 23.295-100.458 -30.044
+throw away 3D coordinate 24.960-101.870 -30.587
+throw away 3D coordinate 25.765-100.858 -31.254
+throw away 3D coordinate 25.796-100.871 -31.241
+throw away 3D coordinate 26.030-101.328 -32.672
+throw away 3D coordinate 26.142-102.533 -32.935
+throw away 3D coordinate 27.088-100.637 -30.513
+throw away 3D coordinate 27.142-100.736 -30.514
+throw away 3D coordinate 26.937-100.186 -29.062
+throw away 3D coordinate 27.029-100.437 -29.025
+throw away 3D coordinate 26.102-100.382 -33.604
+throw away 3D coordinate 26.388-100.724 -34.996
+throw away 3D coordinate 25.107-100.584 -35.864
+throw away 3D coordinate 25.395-100.943 -37.317
+throw away 3D coordinate 24.141-101.065 -38.167
+throw away 3D coordinate 28.543-100.466 -36.153
+throw away 3D coordinate 30.932-100.602 -36.864
+throw away 3D coordinate 30.679-101.464 -37.980
+throw away 3D coordinate 31.234-101.429 -35.638
+throw away 3D coordinate 31.054-100.290 -41.815
+throw away 3D coordinate 31.024-100.246 -41.850
+throw away 3D coordinate 29.741-101.071 -41.891
+throw away 3D coordinate 29.206-101.330 -42.968
+throw away 3D coordinate 32.238-101.237 -41.597
+throw away 3D coordinate 32.279-101.123 -41.824
+throw away 3D coordinate 32.632-102.045 -42.817
+throw away 3D coordinate 33.504-100.430 -42.413
+throw away 3D coordinate 34.107-102.403 -42.821
+throw away 3D coordinate 34.788-101.203 -42.185
+throw away 3D coordinate 34.973-101.552 -42.590
+throw away 3D coordinate 35.683-100.740 -41.477
+throw away 3D coordinate 34.401-103.669 -43.084
+throw away 3D coordinate 34.888-102.387 -42.786
+throw away 3D coordinate 29.208-101.449 -40.738
+throw away 3D coordinate 27.940-102.173 -40.714
+throw away 3D coordinate 26.789-101.290 -41.203
+throw away 3D coordinate 25.900-101.743 -41.933
+throw away 3D coordinate 27.658-102.740 -39.314
+throw away 3D coordinate 28.658-103.830 -38.914
+throw away 3D coordinate 28.646-104.173 -37.435
+throw away 3D coordinate 28.168-103.361 -36.613
+throw away 3D coordinate 29.142-105.268 -37.087
+throw away 3D coordinate 26.821-100.018 -40.822
+throw away 3D coordinate 26.838-100.975 -44.909
+throw away 3D coordinate 26.351-102.189 -45.556
+throw away 3D coordinate 24.840-102.143 -45.780
+throw away 3D coordinate 24.333-102.623 -46.803
+throw away 3D coordinate 26.751-103.428 -44.741
+throw away 3D coordinate 28.178-103.563 -44.793
+throw away 3D coordinate 26.106-104.696 -45.291
+throw away 3D coordinate 24.107-101.553 -44.839
+throw away 3D coordinate 22.663-101.396 -45.005
+throw away 3D coordinate 22.368-100.590 -46.265
+throw away 3D coordinate 21.545-100.977 -47.088
+throw away 3D coordinate 22.042-100.711 -43.770
+throw away 3D coordinate 22.277-101.571 -42.529
+throw away 3D coordinate 20.552-100.405 -43.997
+throw away 3D coordinate 21.945-100.844 -41.231
+throw away 3D coordinate 24.931-100.665 -50.014
+throw away 3D coordinate 24.947-100.689 -50.006
+throw away 3D coordinate 23.900-101.691 -50.471
+throw away 3D coordinate 23.644-101.845 -51.665
+throw away 3D coordinate 26.280-101.315 -49.727
+throw away 3D coordinate 26.259-101.416 -49.692
+throw away 3D coordinate 27.273-100.314 -49.627
+throw away 3D coordinate 26.765-102.065 -50.853
+throw away 3D coordinate 23.285-102.374 -49.521
+throw away 3D coordinate 22.296-103.393 -49.846
+throw away 3D coordinate 22.272-103.385 -49.824
+throw away 3D coordinate 21.031-102.783 -50.449
+throw away 3D coordinate 20.504-103.283 -51.447
+throw away 3D coordinate 21.961-104.212 -48.595
+throw away 3D coordinate 21.837-104.092 -48.541
+throw away 3D coordinate 21.011-105.363 -48.835
+throw away 3D coordinate 22.700-105.265 -48.146
+throw away 3D coordinate 21.032-106.349 -47.685
+throw away 3D coordinate 22.283-105.841 -46.799
+throw away 3D coordinate 20.669-105.686 -46.368
+throw away 3D coordinate 20.793-106.153 -46.727
+throw away 3D coordinate 20.443-106.691 -45.287
+throw away 3D coordinate 20.356-107.251 -47.632
+throw away 3D coordinate 20.545-101.699 -49.851
+throw away 3D coordinate 19.248-101.164 -50.235
+throw away 3D coordinate 19.253-100.076 -51.295
+throw away 3D coordinate 18.438-100.789 -48.980
+throw away 3D coordinate 18.072-101.985 -48.144
+throw away 3D coordinate 17.397-103.061 -48.724
+throw away 3D coordinate 18.432-102.068 -46.808
+throw away 3D coordinate 17.067-104.179 -47.979
+throw away 3D coordinate 18.101-103.190 -46.056
+throw away 3D coordinate 17.424-104.249 -46.645
+throw away 3D coordinate 21.078-100.543 -54.549
+throw away 3D coordinate 21.925-101.255 -55.512
+throw away 3D coordinate 22.220-100.449 -56.773
+throw away 3D coordinate 23.228-100.737 -57.439
+throw away 3D coordinate 21.086-102.493 -55.865
+throw away 3D coordinate 19.673-102.120 -55.513
+throw away 3D coordinate 19.797-101.238 -54.318
+throw away 3D coordinate 31.765-100.012 -49.757
+throw away 3D coordinate 33.063-100.742 -49.788
+throw away 3D coordinate 17.442-100.075 -32.608
+throw away 3D coordinate 16.207-100.354 -33.172
+throw away 3D coordinate 18.505-100.438 -37.601
+throw away 3D coordinate 17.772-101.485 -38.135
+The time taken to extract the information of three-dimensional points is: 0.0033762454986572266s.
+Number of points: 1429 .
+The time it takes to place the point in the unit sphere is: 0.004611015319824219s.
+Start building voxels...
+The time of the voxelization is: 0.0015888214111328125s.
+##############################################################
+&&&&&&&&&&&&&&Start Calculating Geometric Moment&&&&&&&&&&&&&&
+Now r = 0 , when r = 20, the geometric moment is calculated.
+Now r = 12 , when r = 20, the geometric moment is calculated.
+Now r = 7 , when r = 20, the geometric moment is calculated.
+Now r = 11 , when r = 20, the geometric moment is calculated.
+Now r = 6 , when r = 20, the geometric moment is calculated.
+Now r = 8 , when r = 20, the geometric moment is calculated.
+Now r = 1 , when r = 20, the geometric moment is calculated.
+Now r = 16 , when r = 20, the geometric moment is calculated.
+Now r = 4 , when r = 20, the geometric moment is calculated.
+Now r = 14 , when r = 20, the geometric moment is calculated.
+Now r = 13 , when r = 20, the geometric moment is calculated.
+Now r = 17 , when r = 20, the geometric moment is calculated.
+Now r = 18 , when r = 20, the geometric moment is calculated.
+Now r = 20 , when r = 20, the geometric moment is calculated.
+Now r = 2 , when r = 20, the geometric moment is calculated.
+Now r = 19 , when r = 20, the geometric moment is calculated.
+Now r = 10 , when r = 20, the geometric moment is calculated.
+Now r = 3 , when r = 20, the geometric moment is calculated.
+Now r = 9 , when r = 20, the geometric moment is calculated.
+Now r = 15 , when r = 20, the geometric moment is calculated.
+Now r = 5 , when r = 20, the geometric moment is calculated.
+##############################################################
+&&&&&&&&&&&&&&&End Calculating Geometric Moment&&&&&&&&&&&&&&&
+The calculation time of geometric moment is: 1.302269458770752s.
+Zernike feature vector has been written into exampleAtomZernikeDescriptor/4mlwA.pkl. Total time: 3.268892765045166s.
