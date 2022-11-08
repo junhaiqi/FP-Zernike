@@ -44,6 +44,9 @@ The main functions of PGAR-Zernike as follows:
     In addition, users can enter the following command to obtain detailed instructions.
         python mainRetrieve.py -h
     There are more commands in 'test_mainRetrieve.sh', and users can test this function by executing 'bash test_mainRetrieve.sh'.
+    We constructed a demo containing 590685 structures, at this scale, our retrieval system only takes 4 ∼ 9 seconds to complete a retrieval. To perform the retrieval on the demo dataset, users need to through the following link to download about demo database (Name:PMAllSingleChainZernike.pkl), and need to put     'PMAllSingleChainZernike.pkl' copy to the folder 'database'.
+        link: https://pan.baidu.com/s/1NnQsFiVyatQ2p-k7oj-giA 
+        Extraction code: 208z
 
 ### 4. Measure the similarity between the two structures
     When the descriptors of the structure are calculated by PGAR-Zernike, the user can initially measure the similarity based on the Euclidian distance between the descriptors. Specifically, given the descriptors of two structures, A[Path: example/4mr5A.pkl] and B[Path: example/4mr6A.pkl], the user can perform the following command to obtain the Euclidean distance between them.
