@@ -1,4 +1,4 @@
-# PGAR-Zernike: a convenient toolkit for ultra-fast structure retrieval
+# PGAR-Zernike: an  ultra-fast, accurate and fully open-source structure retrieval toolkit for convient structural database construction
 
 The main functions of PGAR-Zernike as follows:
 
