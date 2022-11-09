@@ -38,7 +38,7 @@ The main functions of PGAR-Zernike as follows:
         python mainMakeZernikeDataBase.py -i example -t 4 -mode ATOM
     Here, '4' is the thread number. A new folder[path: exampleAtomZernikeDescriptor] containing all descriptors is automatically generated. Similarly, descriptors for other patterns can also be built, and these command lines are in 'test_mainMakeZernikeDataBase.sh', user can run 'bash test_mainMakeZernikeDataBase.sh' to test this function.
     In addition, users can enter the following command to obtain detailed instructions.
-        python mainRetrieve.py -h
+        python mainMakeZernikeDataBase.py -h
 
 ### 3. Ultra-fast structure retrieval
     Given the query structure, the user can perform ultra-fast structure retrieval. For example, given a protein chain[Path:example/4mu1A.pdb], users can preform sturcture retrieval by command as follows.
