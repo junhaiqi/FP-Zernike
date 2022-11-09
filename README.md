@@ -21,15 +21,15 @@ The main functions of PGAR-Zernike as follows:
 
 ## Usage
 ### 1. Calculate Zernike descriptors
-    Given the query structure[path: example/4m2qA.pdb], the user can execute the following command to get its ATOM-Zernike:
-        python mainZernikeCalculation.py -i example/4m2qA.pdb -file_source atom -mode atom -o test_4m2qA_ATOM.pkl
+    Given the query structure[path: example/4mu3A.pdb], the user can execute the following command to get its ATOM-Zernike:
+        python mainZernikeCalculation.py -i example/4mu3A.pdb -file_source atom -mode atom -o test_4mu3A_ATOM.pkl
     Here, 'test_4m2qA_ATOM.pkl' include the information of Zernike descriptor of 'example/4m2qA.pdb'. 
     The user can execute the following command to get its PM-Zernike:
-        python mainZernikeCalculation.py -i example/4m2qA.pdb -file_source pymol -mode mesh -o test_4m2qA_PM.pkl
+        python mainZernikeCalculation.py -i example/4mu3A.pdb -file_source pymol -mode mesh -o test_4mu3A_PM.pkl
     The user can execute the following command to get its PS-Zernike:
-        python mainZernikeCalculation.py -i example/4m2qA.pdb -file_source pymol -mode surface -o test_4m2qA_PS.pkl
+        python mainZernikeCalculation.py -i example/4mu3A.pdb -file_source pymol -mode surface -o test_4mu3A_PS.pkl
     The user can execute the following command to get its GM-Zernike:
-        python mainZernikeCalculation.py -i example/4m2qA.pdb -file_source gmconvert -mode GM -o test_4m2qA_GM.pkl
+        python mainZernikeCalculation.py -i example/4mu3A.pdb -file_source gmconvert -mode GM -o test_4mu3A_GM.pkl
     In addition, users can enter the following command to obtain detailed instructions.
         python mainZernikeCalculation.py -h
     The above commands in 'test_mainZernikeCalculation.sh', user can run 'bash test_mainZernikeCalculation.sh' to test this function.
