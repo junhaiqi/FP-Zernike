@@ -15,6 +15,8 @@ The main functions of PGAR-Zernike as follows:
 ## Packages && deploy
     In order to run PGAR-Zernike, three main packages are required, that is, 'pymol', 'numpy' and 'numba'. For convenience, an environment file('PGAR_Zernike.yaml') is provided so that users can deploy PGAR-Zernike directly using conda, the command line is as follows:
         conda env create -f PGAR_Zernike.yaml
+    In addtion, users need to create a folder by command line as follows:
+        mkdir tempoutput
 
 ## Usage
 ### 1. Calculate Zernike descriptors
