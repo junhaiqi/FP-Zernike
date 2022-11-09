@@ -18,6 +18,10 @@ The main functions of PGAR-Zernike as follows:
         pip install scikit-learn
     In addtion, users need to create a folder by command line as follows:
         mkdir tempoutput
+    And, open permissions for some tools:
+        chmod 777 tool/gmconvert
+        chmod 777 tool/extractFeaturePoints30
+        chmod 777 tool/extractFeaturePoints50
 
 ## Usage
 ### 1. Calculate Zernike descriptors
