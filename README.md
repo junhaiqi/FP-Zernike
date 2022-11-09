@@ -29,7 +29,7 @@ The main functions of PGAR-Zernike as follows:
     The user can execute the following command to get its PS-Zernike:
         python mainZernikeCalculation.py -i example/4m2qA.pdb -file_source pymol -mode surface -o test_4m2qA_PS.pkl
     The user can execute the following command to get its GM-Zernike:
-        python mainZernikeCalculation.py -i example/4m2qA.pdb -file_source gmconvert -mode GM -o test_4m2qA_PS.pkl
+        python mainZernikeCalculation.py -i example/4m2qA.pdb -file_source gmconvert -mode GM -o test_4m2qA_GM.pkl
     In addition, users can enter the following command to obtain detailed instructions.
         python mainZernikeCalculation.py -h
     The above commands in 'test_mainZernikeCalculation.sh', user can run 'bash test_mainZernikeCalculation.sh' to test this function.
