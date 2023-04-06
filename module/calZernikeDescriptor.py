@@ -22,7 +22,7 @@ if 'module' not in sys.path:
     sys.path.append('module')
 
 import pickle
-# import use_tool
+import use_tool
 import get_protein_representation as gpr
 import time
 
