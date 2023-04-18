@@ -143,20 +143,6 @@ def useGmfit(GmmFile1, GmmFile2):
         
     
 if __name__ == "__main__":
-    # test = useRNAAlignGetTMscoreRMSD('data/RNAfinalClass/4V3P_1_L110_L210437.pdb_class/4V3P_1_L110_L210437.pdb', \
-    #                                  'data/RNAfinalClass/4V3P_1_L110_L210437.pdb_class/7NHN_A580.pdb')
-    # print(test)
-    
-    # test = useDeepScore(pdbFile1='data/SEQSingleChainPDB/3f01A.pdb', pdbFile2='data/SEQSingleChainPDB/2ki6A.pdb')
-    # print(test)
-
-    # test1 = useDTW(valueFile1 = 'SEQ200Geo/1bnrA.txt', valueFile2 = 'SEQ200Geo/1aluA.txt')
-    # test2 = useDTW(valueFile1 = 'SEQ200Geo/1bnrA.txt', valueFile2 = 'SEQ200Geo/1x1uA.txt')
-    
-    # test3 = useDTW('SEQ200/Geo/1bnrA.txt', 'SEQ200/Geo/1x1uA.txt')
-    
-    # print(test1, test2, test3)
-    
     test = useGmfit(GmmFile1='Benchmark/gmfit/SEQGMM/3cptA_g50.gmm', 
                     GmmFile2='Benchmark/gmfit/SEQGMM/3cptA_g50.gmm')
 
