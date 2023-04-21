@@ -22,24 +22,29 @@ def getQueryZernike(pdbFile = '', mode = 'ATOM', prfixName = ''):
     zernikeData = {}
     if mode == 'ATOM':
         data = get_zernike(file_source = 'atom', input = pdbFile, gmmCount = 50, mode = 'atom', output = prfixName + '_ATOM.pkl')
-        zernikeData[prfixName] = data
+        # zernikeData[prfixName] = data
     elif mode == 'PM':
         data = get_zernike(file_source = 'pymol', input = pdbFile, gmmCount = 50, mode = 'mesh', output = prfixName + '_PM.pkl')
-        zernikeData[prfixName] = data
+        # zernikeData[prfixName] = data
     elif mode == 'PS':
         data = get_zernike(file_source = 'pymol', input = pdbFile, gmmCount = 50, mode = 'surface', output = prfixName + '_PS.pkl')
-        zernikeData[prfixName] = data
+        # zernikeData[prfixName] = data
     elif mode == 'GM':
         data = get_zernike(file_source = 'gmconvert', input = pdbFile, gmmCount = 50, mode = 'surface', output = prfixName + '_GM.pkl') 
-        zernikeData[prfixName] = data
+        # zernikeData[prfixName] = data
     else:
         print('Please input ATOM, PM, PS or GM!')
         sys.exit(-1)
-    return zernikeData
+    return data
 
-def retrieveSystem(pdbFile = '', Zernikemode = 'ATOM', retrievalMode = 'SingleChain', outTopNum = 500, update = 'True', resFile = ''):
+def retrieveSystem(pdbFile = '', Zernikemode = 'ATOM', retrievalMode = 'SingleChain', outTopNum = 500, update = 'False', resFile = ''):
     prefixName = pdbFile.split('/')[-1].split('.')[0]
-    prefixName = prefixName[0:4].upper() + prefixName[4] # pdb ID + chain ID, e.g., 1MBNA. Length = 5
+    
+    if len(prefixName) == 5:
+        prefixName = prefixName[0:4].upper() + prefixName[4] # pdb ID + chain ID, e.g., 1MBNA. Length = 5
+    else:
+        prefixName = prefixName.upper()
+
     dataFile = 'database/' + Zernikemode + 'All' + retrievalMode + 'Zernike.pkl'
     allZernikeData = extractInfoFromPklfile(dataFile)
 
@@ -47,10 +52,12 @@ def retrieveSystem(pdbFile = '', Zernikemode = 'ATOM', retrievalMode = 'SingleCh
     if prefixName in allZernikeData.keys():
         queryZernike = allZernikeData[prefixName]
     else:
-        queryZernike = getQueryZernike(pdbFile = pdbFile, mode = Zernikemode, prefixName = prefixName)
-        allZernikeData[prefixName] = queryZernike
-
-        # update 3D zernike descriptor database
+        if '.pdb' not in pdbFile:
+            os.system('wget -P tempoutput/ https://files.rcsb.org/download/%s.pdb'%prefixName)
+            os.system('mv tempoutput/%s.pdb tempoutput/%s.pdb'%(prefixName, prefixName.upper()))
+            pdbFile = 'tempoutput/%s.pdb'%prefixName
+        
+        queryZernike = getQueryZernike(pdbFile = pdbFile, mode = Zernikemode, prfixName = prefixName)
         if update == 'True':
             os.system('rm -r %s'%dataFile)
             file = open(dataFile, 'ab')
@@ -82,7 +89,7 @@ def initialization_parameters():
                         help='The number of structures in the final output.')
     parser.add_argument('-op', type=str, required=True, \
                         help='An output file that records retrieve results.')
-    parser.add_argument('-up', type=str, required=False, default="True",
+    parser.add_argument('-up', type=str, required=False, default="False",
                         help='A parameter that decides whether to update the database. \
                         If the parameter is set to "True" and the query structure is not in the database, \
                         a descriptor for this structure will be added to the database.')
