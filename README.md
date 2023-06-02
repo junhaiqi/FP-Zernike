@@ -12,6 +12,7 @@ The main functions of FP-Zernike as follows:
 
 5. Based on 'Romokage', the similarity between structures is measured.
 
+FP-Zernike is an open-source toolkit, whose source code and related data are accessible at https://github.com/junhaiqi/FP-Zernike/, as well as a webserver http://43.138.38.101.
 ## Packages && deploy
     In order to run FP-Zernike, three main packages are required, that is, 'pymol', 'numpy' and 'numba'. For convenience, an environment file('FP_Zernike.yaml') is provided so that users can deploy FP-Zernike directly using conda, the command line is as follows:
         conda env create -f FP_Zernike.yaml
