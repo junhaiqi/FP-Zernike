@@ -1,10 +1,10 @@
-# PGAR-Zernike: an  ultra-fast, accurate and fully open-source structure retrieval toolkit for convient structural database construction
+# FP-Zernike: An open-source structural database construction toolkit for fast and accurate structure retrieval
 
-The main functions of PGAR-Zernike as follows:
+The main functions of FP-Zernike as follows:
 
-1. Given a protein(or RNA) structure(format: *.pdb), PGAR-Zernike can calculate its Zernike descriptors[4 types, namely PM-Zernike, PS-Zernike, ATOM-Zernike and GM-Zernike]. Based on the results of the experiment, we recommend the user to calculate PM-Zernike, PS-Zernike or ATOM-Zernike.
+1. Given a protein(or RNA) structure(format: *.pdb), FP-Zernike can calculate its Zernike descriptors[4 types, namely PM-Zernike, PS-Zernike, ATOM-Zernike and GM-Zernike]. Based on the results of the experiment, we recommend the user to calculate PM-Zernike, PS-Zernike or ATOM-Zernike.
 
-2. Given a customized dataset[only include *.pdb file], PGAR-Zernike can calculate all Zernike descriptors about it.
+2. Given a customized dataset[only include *.pdb file], FP-Zernike can calculate all Zernike descriptors about it.
 
 3. Given a query structure[single-chain], structure retrieval is done on a dataset containing 590685 protein chains[run time: ~4s-9s].
 
@@ -13,8 +13,8 @@ The main functions of PGAR-Zernike as follows:
 5. Based on 'Romokage', the similarity between structures is measured.
 
 ## Packages && deploy
-    In order to run PGAR-Zernike, three main packages are required, that is, 'pymol', 'numpy' and 'numba'. For convenience, an environment file('PGAR_Zernike.yaml') is provided so that users can deploy PGAR-Zernike directly using conda, the command line is as follows:
-        conda env create -f PGAR_Zernike.yaml
+    In order to run FP-Zernike, three main packages are required, that is, 'pymol', 'numpy' and 'numba'. For convenience, an environment file('FP_Zernike.yaml') is provided so that users can deploy FP-Zernike directly using conda, the command line is as follows:
+        conda env create -f FP_Zernike.yaml
         pip install scikit-learn
     In addtion, users need to create a folder by command line as follows:
         mkdir tempoutput
@@ -56,7 +56,7 @@ The main functions of PGAR-Zernike as follows:
         Extraction code: 208z
 
 ### 4. Measure the similarity between the two structures
-    When the descriptors of the structure are calculated by PGAR-Zernike, the user can initially measure the similarity based on the Euclidian distance between the descriptors. Specifically, given the descriptors of two structures, A[Path: example/4mr5A.pkl] and B[Path: example/4mr6A.pkl], the user can perform the following command to obtain the Euclidean distance between them.
+    When the descriptors of the structure are calculated by FP-Zernike, the user can initially measure the similarity based on the Euclidian distance between the descriptors. Specifically, given the descriptors of two structures, A[Path: example/4mr5A.pkl] and B[Path: example/4mr6A.pkl], the user can perform the following command to obtain the Euclidean distance between them.
         python mainZernikeDist.py example/4mr5A.pkl example/4mr6A.pkl
 ### 5. Measure the similarity based on ReOmokage
     Here, we improve the Omokage and propose 'ReOmokage' to measure the similarity between structures. Given structures A[Path: example/4mu3A.pdb] and B[Path: example/4mu1A.pdb], the user can enter the following command to calculate the similarity between the structures:
