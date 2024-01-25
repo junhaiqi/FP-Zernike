@@ -63,7 +63,7 @@ FP-Zernike is an open-source toolkit, whose source code and related data are acc
     Here, we improve the Omokage and propose 'ReOmokage' to measure the similarity between structures. Given structures A[Path: example/4mu3A.pdb] and B[Path: example/4mu1A.pdb], the user can enter the following command to calculate the similarity between the structures:
         python mainReOmokage.py -pdb1 example/4mu3A.pdb -pdb2 example/4mu1A.pdb
 
-### cite
+## Cite
 Qi, J., Feng, C., Shi, Y., Yang, J., Zhang, F., Li, G., & Han, R. (2024). FP-Zernike: an open-source structural database construction toolkit for fast structure retrieval. Genomics, Proteomics & Bioinformatics, qzae007.
 
     
