@@ -64,7 +64,7 @@ FP-Zernike is an open-source toolkit, whose source code and related data are acc
         python mainReOmokage.py -pdb1 example/4mu3A.pdb -pdb2 example/4mu1A.pdb
 
 ## Cite
-Qi, J., Feng, C., Shi, Y., Yang, J., Zhang, F., Li, G., & Han, R. (2024). FP-Zernike: an open-source structural database construction toolkit for fast structure retrieval. Genomics, Proteomics & Bioinformatics, qzae007.
+Junhai Qi, Chenjie Feng, Yulin Shi, Jianyi Yang, Fa Zhang, Guojun Li, Renmin Han, FP-Zernike: An Open-source Structural Database Construction Toolkit for Fast Structure Retrieval, Genomics, Proteomics & Bioinformatics, Volume 22, Issue 1, February 2024, qzae007, https://doi.org/10.1093/gpbjnl/qzae007
 
     
 
