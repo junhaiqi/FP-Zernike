@@ -128,7 +128,7 @@ We constructed a demo containing 590685 structures, at this scale, our retrieval
 If you have generated a descriptor database (assuming the path is `example` and the mode is `PM`) and want to perform a retrieve based on it, you can use the following command line configuration:
 
 ```
-python mergePkls.py example database/PMAllSingleChainZernike.pkl
+    python mergePkls.py example database/PMAllSingleChainZernike.pkl
 ```
 
 Here, the naming rule is database/$modeAllSingleChainZernike.pkl.
