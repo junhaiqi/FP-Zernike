@@ -35,9 +35,9 @@ def merge_pkl_to_dict(database_dir_path, output_file):
         pickle.dump(merged_dict, f)
     
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print(f"Usage: python {sys.argv[0]} $Your_Zernike_Descriptor_Dir_Path")
+    if len(sys.argv) != 3:
+        print(f"Usage: python {sys.argv[0]} $Your_Zernike_Descriptor_Dir_Path $Output_Pkl_File")
         exit(-1)
     else:
-        merge_pkl_to_dict(database_dir_path = sys.argv[1], output_file = 'database/PMAllSingleChainZernike.pkl')
+        merge_pkl_to_dict(database_dir_path = sys.argv[1], output_file = sys.argv[2]')
     
