@@ -28,7 +28,7 @@ def merge_pkl_to_dict(database_dir_path, output_file):
         if isinstance(data, dict):
             merged_dict.update(data)
         else:
-            key = os.path.splitext(os.path.basename(file_path))[0]  # 去掉扩展名
+            key = os.path.splitext(os.path.basename(file_path))[0] 
             merged_dict[key] = data
     
     with open(output_file, 'wb') as f:
@@ -39,5 +39,5 @@ if __name__ == "__main__":
         print(f"Usage: python {sys.argv[0]} $Your_Zernike_Descriptor_Dir_Path $Output_Pkl_File")
         exit(-1)
     else:
-        merge_pkl_to_dict(database_dir_path = sys.argv[1], output_file = sys.argv[2]')
+        merge_pkl_to_dict(database_dir_path = sys.argv[1], output_file = sys.argv[2])
     
